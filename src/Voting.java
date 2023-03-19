@@ -9,5 +9,9 @@ public class Voting {
     private boolean isAnonymous;
     private ArrayList<Person> voters;
 
-
+    public Voting(int type, String question, boolean isAnonymous) {
+        this.type = type;
+        this.question = question;
+        this.isAnonymous = isAnonymous;
+    }
 }
