@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+import java.text.DateFormat;
+import java.util.*;
+import java.text.SimpleDateFormat;
 
 public class Voting {
     private int type;
@@ -42,6 +41,25 @@ public class Voting {
         if (this == o) return true;
         if (!(o instanceof Voting voting)) return false;
         return type == voting.type && isAnonymous == voting.isAnonymous && getQuestion().equals(voting.getQuestion()) && choice.equals(voting.choice) && voters.equals(voting.voters);
+    }
+
+    public void vote(Person voter, ArrayList<String> voter_choices) {
+        voters.add(voter);
+        for (String i : voter_choices) {
+            for  (Map.Entry<String, HashSet<Vote>> j : choice.entrySet()) {
+                if (i.equals(j.getKey())) {
+                    HashSet<Vote> now = j.getValue();
+                    String pattern = "MM/dd/yyyy HH:mm:ss";
+                    DateFormat df = new SimpleDateFormat(pattern);
+                    Date today = Calendar.getInstance().getTime();
+                    String todayAsString = df.format(today);
+                    Vote man = new Vote(voter, todayAsString);
+                    now.add(man);
+                    j.setValue(now);
+                    break;
+                }
+            }
+        }
     }
 
 }
