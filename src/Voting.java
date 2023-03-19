@@ -62,4 +62,25 @@ public class Voting {
         }
     }
 
+    public void vote(Person person) {
+        int size = choice.size();
+        if (size == 0) return;
+        Random r = new Random();
+        int t = r.nextInt(size);
+        Iterator<Map.Entry<String, HashSet<Vote>>> it = choice.entrySet().iterator();
+        Map.Entry<String, HashSet<Vote>> aim = it.next();
+        while (--t > 0) {
+            aim = it.next();
+        }
+        HashSet<Vote> now = aim.getValue();
+        Person anonymousPerson = new Person("hidden", "hidden");
+        String pattern = "MM/dd/yyyy HH:mm:ss";
+        DateFormat df = new SimpleDateFormat(pattern);
+        Date today = Calendar.getInstance().getTime();
+        String todayAsString = df.format(today);
+        Vote anonymousVote = new Vote(anonymousPerson, todayAsString);
+        now.add(anonymousVote);
+        aim.setValue(now);
+    }
+
 }

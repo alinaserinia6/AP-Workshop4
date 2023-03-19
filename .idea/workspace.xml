@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d5998ee-210f-4037-9ca8-0b244ad52307" name="Changes" comment="added getters and setters to Voting">
+    <list default="true" id="5d5998ee-210f-4037-9ca8-0b244ad52307" name="Changes" comment="added vote method to Voting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Voting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voting.java" afterDir="false" />
     </list>
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679211645628</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added vote method to Voting">
+      <created>1679218875146</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679218875146</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -207,7 +214,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="add-voting-class" />
+                        <option value="feature-voting-method" />
                       </list>
                     </value>
                   </entry>
@@ -235,6 +242,7 @@
     <MESSAGE value="added fields to Voting" />
     <MESSAGE value="added a constructor to Voting" />
     <MESSAGE value="added getters and setters to Voting" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getters and setters to Voting" />
+    <MESSAGE value="added vote method to Voting" />
+    <option name="LAST_COMMIT_MESSAGE" value="added vote method to Voting" />
   </component>
 </project>
