@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d5998ee-210f-4037-9ca8-0b244ad52307" name="Changes" comment="created Vote class">
+    <list default="true" id="5d5998ee-210f-4037-9ca8-0b244ad52307" name="Changes" comment="added fields to Vote">
       <change beforePath="$PROJECT_DIR$/src/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679205203779</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added fields to Vote">
+      <created>1679205296586</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679205296586</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -165,6 +172,7 @@
     <MESSAGE value="added getters to Person" />
     <MESSAGE value="added toString to Person" />
     <MESSAGE value="created Vote class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Vote class" />
+    <MESSAGE value="added fields to Vote" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fields to Vote" />
   </component>
 </project>
