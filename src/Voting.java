@@ -89,4 +89,11 @@ public class Voting {
         }
     }
 
+    public void printVoters() {
+        if (isAnonymous) return;
+        for (Person i : voters) {
+            System.out.println(i.toString());
+        }
+    }
+
 }
