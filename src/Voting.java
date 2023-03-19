@@ -37,6 +37,11 @@ public class Voting {
         this.choice.put(choice, now);
     }
 
-
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Voting voting)) return false;
+        return type == voting.type && isAnonymous == voting.isAnonymous && getQuestion().equals(voting.getQuestion()) && choice.equals(voting.choice) && voters.equals(voting.voters);
+    }
 
 }
