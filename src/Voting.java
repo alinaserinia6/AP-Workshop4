@@ -83,4 +83,10 @@ public class Voting {
         aim.setValue(now);
     }
 
+    public void printResults() {
+        for (Map.Entry<String, HashSet<Vote>> i : choice.entrySet()) {
+            System.out.println(i.getKey() + ": " + i.getValue().size());
+        }
+    }
+
 }
