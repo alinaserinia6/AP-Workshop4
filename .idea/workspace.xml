@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d5998ee-210f-4037-9ca8-0b244ad52307" name="Changes" comment="added vote method to Voting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Voting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voting.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d5998ee-210f-4037-9ca8-0b244ad52307" name="Changes" comment="Voting is done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,6 +240,7 @@
     <MESSAGE value="added a constructor to Voting" />
     <MESSAGE value="added getters and setters to Voting" />
     <MESSAGE value="added vote method to Voting" />
-    <option name="LAST_COMMIT_MESSAGE" value="added vote method to Voting" />
+    <MESSAGE value="Voting is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Voting is done" />
   </component>
 </project>
