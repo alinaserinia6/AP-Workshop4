@@ -27,7 +27,7 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature-voting-method" />
+        <entry key="$PROJECT_DIR$" value="add-voting-class" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,7 +211,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature-print-methods" />
+                        <option value="feature-voting-method" />
                       </list>
                     </value>
                   </entry>
